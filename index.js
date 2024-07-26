@@ -30,6 +30,16 @@ function plusThree() {
     screenEl.textContent = addThree;
 }
 
+
+function resetHome() {
+    screenEl.textContent = 0;
+}
+
+
+
+
+
+
 //Guest screen
 let screenGuestEL = document.getElementById("screenGuest");
 
@@ -59,4 +69,8 @@ function plusThreeGuest() {
     console.log(addThreeGuest);
 
     screenGuestEL.textContent = addThreeGuest;
+}
+
+function resetGuest() {
+    screenGuestEL.textContent = 0;
 }

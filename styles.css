@@ -55,3 +55,19 @@ body {
     color: #9AABD8;
     cursor: pointer;
 }
+
+.reset {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Timer';
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9AABD8;
+    cursor: pointer;
+}
